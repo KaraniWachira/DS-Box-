@@ -1,0 +1,21 @@
+---
+title: "Hello R"
+author: "Karani Wachira"
+date: "2022-11-03"
+output: html_document
+---
+
+
+```{r}
+library(tidyverse)
+library(datasauRus)
+```
+
+```{r}
+datasauRus::datasaurus_dozen %>% 
+  print(13)
+```
+
+
+
+
